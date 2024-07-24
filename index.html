@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Petro Perkasa Indonesia</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.jpg" alt="Logo" width="50" height="50">
+        </a>
+        
+        </button>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/workshop-1425446_1280.jpg" alt="LogoPetro" class="logo-img" width="500" />
+      <h1 class="display-4 custom-heading">Work Order</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -10px">
+        <path
+          fill="#e10346"
+          fill-opacity="1"
+          d="M0,160L48,138.7C96,117,192,75,288,85.3C384,96,480,160,576,181.3C672,203,768,181,864,149.3C960,117,1056,75,1152,58.7C1248,43,1344,53,1392,58.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- akhirjumbotron -->
+    <!-- Form -->
+<section id="contact">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h2>Work Order Report</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center mb-3">
+      <div class="col-md-6">
+        <form id="uploadForm" action="https://script.google.com/macros/s/AKfycbxbR_DOg0HE0ge9qndJc3ILT7lLV-tGLkJPDgrH9Px9wr4HWJ35RM6-HJJA5xPNxISo/exec" method="POST">
+          <input type="hidden" value="" name="fileContent" id="fileContent" />
+          <input type="hidden" value="" name="filename" id="filename" />
+          <input type="hidden" value="" name="fileContent2" id="fileContent2" />
+          <input type="hidden" value="" name="filename2" id="filename2" />
+          <input type="hidden" value="" name="fileContent3" id="fileContent3" />
+          <input type="hidden" value="" name="filename3" id="filename3" />
+          <input type="hidden" value="" name="fileContent4" id="fileContent4" />
+          <input type="hidden" value="" name="filename4" id="filename4" />
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="masukkan alamat email anda" required>
+          </div>
+          <div class="mb-3">
+            <label for="Departement" class="form-label">Departement</label>
+            <select class="form-select" aria-label="Default select example" name="Departement" id="Departement">
+              <option selected>Pilih Departement</option>
+              <option value="LISTRIK & INSTRUMENT">LISTRIK & INSTRUMENT</option>
+              <option value="AC">AC</option>
+              <option value="SIPIL">SIPIL</option>
+              <option value="PAINTING">PAINTING</option>
+              <option value="PPD">PPD</option>
+              <option value="IT">IT</option>
+              <option value="UMUM">UMUM</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="Nama_Karyawan" class="form-label">Nama Karyawan</label>
+            <select class="form-select" aria-label="Default select example" name="Nama_Karyawan" id="Nama_Karyawan">
+              <option selected>Nama Karyawan</option>
+              <option value="Rahman">Rahman</option>
+              <option value="Riski">Riski</option>
+              <option value="Fajar">Fajar</option>
+              <option value="Junaidi">Junaidi</option>
+              <option value="Annuar">Annuar</option>
+              <option value="Iwan">Iwan</option>
+              <option value="Arif">Arif</option>
+              <option value="Farouq">Farouq</option>
+              <option value="Arsyil">Arsyil</option>
+              <option value="Toni">Toni</option>
+              <option value="Heru">Heru</option>
+              <option value="Hermansyah">Hermansyah</option>
+              <option value="Abdul Sani">Abdul Sani</option>
+              <option value="Lucky">Lucky</option>
+              <option value="Syahrul">Syahrul</option>
+              <option value="Rajab">Rajab</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="Nama_Karyawan2" class="form-label">Nama Karyawan</label>
+            <select class="form-select" aria-label="Default select example" name="Nama_Karyawan2" id="Nama_Karyawan2">
+              <option selected disabled>Nama Karyawan</option>
+              <option value="Rahman">Rahman</option>
+              <option value="Riski">Riski</option>
+              <option value="Fajar">Fajar</option>
+              <option value="Junaidi">Junaidi</option>
+              <option value="Annuar">Annuar</option>
+              <option value="Iwan">Iwan</option>
+              <option value="Arif">Arif</option>
+              <option value="Farouq">Farouq</option>
+              <option value="Arsyil">Arsyil</option>
+              <option value="Toni">Toni</option>
+              <option value="Heru">Heru</option>
+              <option value="Hermansyah">Hermansyah</option>
+              <option value="Abdul Sani">Abdul Sani</option>
+              <option value="Lucky">Lucky</option>
+              <option value="Syahrul">Syahrul</option>
+              <option value="Rajab">Rajab</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="Nama_Karyawan3" class="form-label">Nama Karyawan</label>
+            <select class="form-select" aria-label="Default select example" name="Nama_Karyawan3" id="Nama_Karyawan3">
+              <option selected disabled>Nama Karyawan</option>
+              <option value="Rahman">Rahman</option>
+              <option value="Riski">Riski</option>
+              <option value="Fajar">Fajar</option>
+              <option value="Junaidi">Junaidi</option>
+              <option value="Annuar">Annuar</option>
+              <option value="Iwan">Iwan</option>
+              <option value="Arif">Arif</option>
+              <option value="Farouq">Farouq</option>
+              <option value="Arsyil">Arsyil</option>
+              <option value="Toni">Toni</option>
+              <option value="Heru">Heru</option>
+              <option value="Hermansyah">Hermansyah</option>
+              <option value="Abdul Sani">Abdul Sani</option>
+              <option value="Lucky">Lucky</option>
+              <option value="Syahrul">Syahrul</option>
+              <option value="Rajab">Rajab</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="Nama_Karyawan4" class="form-label">Nama Karyawan</label>
+            <select class="form-select" aria-label="Default select example" name="Nama_Karyawan4" id="Nama_Karyawan4">
+              <option selected disabled>Nama Karyawan</option>
+              <option value="Rahman">Rahman</option>
+              <option value="Riski">Riski</option>
+              <option value="Fajar">Fajar</option>
+              <option value="Junaidi">Junaidi</option>
+              <option value="Annuar">Annuar</option>
+              <option value="Iwan">Iwan</option>
+              <option value="Arif">Arif</option>
+              <option value="Farouq">Farouq</option>
+              <option value="Arsyil">Arsyil</option>
+              <option value="Toni">Toni</option>
+              <option value="Heru">Heru</option>
+              <option value="Hermansyah">Hermansyah</option>
+              <option value="Abdul Sani">Abdul Sani</option>
+              <option value="Lucky">Lucky</option>
+              <option value="Syahrul">Syahrul</option>
+              <option value="Rajab">Rajab</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="Nama_Pelapor" class="form-label">Nama Pelapor</label>
+            <input type="text" id="Nama_Pelapor" name="Nama_Pelapor" class="form-control" placeholder="Wajib di isi..." required />
+          </div>
+          <div class="mb-3">
+            <label for="Jabatan" class="form-label">Jabatan</label>
+            <input type="text" id="Jabatan" name="Jabatan" class="form-control" placeholder="Wajib di isi..." required />
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Tanggal Pengerjaan</label>
+            <input type="date" class="form-control" id="date" aria-describedby="date" name="Tanggal_Pengerjaan" />
+          </div>
+          <div class="mb-3" style="background-color: white; padding: 10px; border-radius: 8px;">
+            <label class="form-label">Situasi Pekerjaan</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Situasi_Pekerjaan" id="Normal" value="Normal" checked>
+                <label class="form-check-label" for="Normal">Normal</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Situasi_Pekerjaan" id="Urgent" value="Urgent">
+                <label class="form-check-label" for="Urgent">Urgent</label>
+            </div>
+        </div>
+          <div class="mb-3" style="background-color: white; padding: 10px; border-radius: 8px; ">
+            <label class="form-label">Jenis Pekerjaan</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Jenis_Pekerjaan" id="Pemeriksaan" value="Pemeriksaan" checked>
+                <label class="form-check-label" for="Pemeriksaan">Pemeriksaan</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Jenis_Pekerjaan" id="Perbaikan" value="Perbaikan">
+                <label class="form-check-label" for="Perbaikan">Perbaikan</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Jenis_Pekerjaan" id="Project" value="Project">
+                <label class="form-check-label" for="Project">Project</label>
+            </div>
+        </div>
+        <div class="mb-3" style="background-color: white; padding: 10px; border-radius: 8px;">
+          <label class="form-label">Status Pekerjaan</label>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Status_Pekerjaan" id="Selesai_Normal" value="Selesai_Normal" checked>
+              <label class="form-check-label" for="Selesai_Normal">Selesai Normal</label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Status_Pekerjaan" id="Lanjut_Menunggu_Sparepart" value="Lanjut Menunggu Sparepart">
+              <label class="form-check-label" for="Lanjut Menunggu Sparepart">Lanjut Menunggu Sparepart</label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Status_Pekerjaan" id="Berlanjut" value="Berlanjut">
+              <label class="form-check-label" for="Berlanjut">Berlanjut</label>
+          </div>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="Status_Pekerjaan" id="Dihentikan" value="Dihentikan">
+              <label class="form-check-label" for="Dihentikan">Dihentikan !!!</label>
+          </div>
+      </div>
+      <div class="mb-3">
+        <label for="Nama_Unit" class="form-label">Nama Unit</label>
+        <input type="text" id="Nama_Unit" name="Nama_Unit" class="form-control" placeholder="Wajib di isi..." required />
+      </div>
+      <div class="mb-3">
+        <label for="pesan" class="form-label">Masalah Unit</label>
+        <textarea class="form-control" id="pesan" rows="8" name="Masalah_Unit" placeholder="Wajib di isi..." required></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="pesan" class="form-label">Usaha Penanggulan</label>
+        <textarea class="form-control" id="pesan" rows="8" name="Usaha_Penanggulangan" placeholder="Wajib di isi..." required></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="pesan" class="form-label">Material</label>
+        <textarea class="form-control" id="pesan" rows="4" name="Material" placeholder="Material yang digunakan..." required></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="attach" class="form-label">Foto Sebelum Perbaikan 1</label>
+        <input required id="attach" name="attach" type="file" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="attach2" class="form-label">Foto Sebelum Perbaikan 2</label>
+        <input required id="attach2" name="attach2" type="file" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="attach3" class="form-label">Foto Sesudah Perbaikan 1</label>
+        <input required id="attach3" name="attach3" type="file" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="attach4" class="form-label">Foto Sesudah Perbaikan 2</label>
+        <input required id="attach4" name="attach4" type="file" class="form-control" required />
+      </div>
+          <div class="mb-3 text-center">
+            <button type="button" class="btn btn-primary" onclick="UploadFile();">Kirim Laporan</button>
+            <a href="https://docs.google.com/spreadsheets/d/1b0mWDp0RjG0NBFoXaDoGe1zMM4YEwX6EgB6-SmcvJaw/edit#gid=73137094" class="btn btn-primary" target="_blank">Lihat Laporan</a>
+            <button class="btn btn-danger" type="reset">Hapus Laporan</button>
+          </div>
+    </form>
+  </div>
+</div>
+</section>
+<!-- akhir Form -->
+
+
+    <!-- footer -->
+    <footer class="text-center pb-3">
+      <p class="text-black">2024 <i class="bi bi-c-circle"></i> <a href="#" class="text-black fw-bold">Lucky Ananda Pradani</a></p>
+    </footer>
+    <!-- akhir footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function UploadFile() {
+        var reader = new FileReader();
+        var feader = new FileReader();
+        var seader = new FileReader();
+        var deader = new FileReader(); 
+        var file = document.getElementById("attach").files[0];
+        var file2 = document.getElementById("attach2").files[0];
+        var file3 = document.getElementById("attach3").files[0];
+        var file4 = document.getElementById("attach4").files[0];
+
+        reader.onload = function () {
+          document.getElementById("fileContent").value = reader.result;
+          document.getElementById("filename").value = file.name;
+          document.getElementById("uploadForm").submit();
+        };
+
+        feader.onload = function () {
+          document.getElementById("fileContent2").value = feader.result; 
+          document.getElementById("filename2").value = file2.name;
+          document.getElementById("uploadForm").submit();
+        };
+
+        seader.onload = function () {
+          document.getElementById("fileContent3").value = seader.result;
+          document.getElementById("filename3").value = file3.name;
+          document.getElementById("uploadForm").submit();
+        };
+
+        deader.onload = function () {
+          document.getElementById("fileContent4").value = deader.result;
+          document.getElementById("filename4").value = file4.name;
+          document.getElementById("uploadForm").submit();
+        };
+
+        reader.readAsDataURL(file); 
+        feader.readAsDataURL(file2);
+        seader.readAsDataURL(file3);
+        deader.readAsDataURL(file4);
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #fff;
+}
+
+.custom-heading {
+    color: #e10346;
+    font-family: 'Kalam', cursive;
+    margin-top: 3px;
+}
+
+#about {
+    background-color: #e10346;
+}
+
+#projects {
+    background-color: #fff;
+}
+
+#contact {
+    background-color: #e10346;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+footer {
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .logo-img { 
+        width: 100%;
+        height: auto;
+      }
+}
+  
+
+  
